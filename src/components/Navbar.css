@@ -1,0 +1,26 @@
+.navbarcontainer{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagescontainer{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.pagescontainer a{
+    text-decoration: none;
+    color:#3D6645;
+    font-size: 1rem;
+    font-weight: bold;
+}
