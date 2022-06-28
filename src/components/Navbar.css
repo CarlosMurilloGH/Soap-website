@@ -1,6 +1,11 @@
 .navbarcontainer{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navbarbox{
+    padding-left: 3rem;
+    padding-right: 3rem;
     display: flex;
     align-items: center;
     align-content: center;

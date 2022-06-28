@@ -1,19 +1,128 @@
 .heroContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     justify-items: center;
-    margin:5rem
+    margin:4rem;
 }
-
+.infoContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .infoContainer h1{
     color:#3D6645;
+    margin-bottom: 1rem;
 }
 
 .infoparagraph{
     max-width: 700px;
+    margin-bottom: 1rem;
 }
 
 .imgheroContainer img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featuresContainer{
+    background-color:#f8f5f2 ;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.featuresGridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featureOne{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featureTwo{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featureThree{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutContainer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.aboutBox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutimage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutInfo{
+    max-width: 700px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.aboutInfo h2{
+    color:#3D6645;
+    margin-bottom: 1rem;
+}
+
+.aboutInfo p{
+    margin-bottom: 1rem;
+}
+
+.productsContainer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.headerProductList{
+    display: flex;
+    justify-content: space-between;
+    margin-left:4rem;
+    margin-right:4rem;
+    margin-bottom: 2rem;
+}
+
+.subtitle{
+    padding-bottom: 2rem;
+}
+
+.subtitle h2{
+    color:#3D6645;
+}
+
+.productListGridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.productimage img{
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }

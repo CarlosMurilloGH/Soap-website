@@ -1,0 +1,30 @@
+.footerContainer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f8f5f2;
+}
+
+
+.footerGridContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.columnaFooterOne{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.columnaFooterTwo a{
+    display: block;
+    color:black;
+    margin-bottom: 0.5rem;
+}
+
+.footerHeader{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
