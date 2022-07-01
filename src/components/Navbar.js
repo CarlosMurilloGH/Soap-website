@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import "../CSS/css-global.css";
 import { Link } from 'gatsby';
@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 function Navbar () {
 
-  const [openHamburguer,setOpenHamburguer]=useState(true)
+  // const [openHamburguer,setOpenHamburguer]=useState(true)
 
   return (
     <div className="navbarcontainer">      
