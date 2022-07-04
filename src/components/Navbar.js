@@ -3,8 +3,6 @@ import "./Navbar.css";
 import "../CSS/css-global.css";
 import { Link } from 'gatsby';
 
-import { StaticImage } from "gatsby-plugin-image"
-
 
 function Navbar () {
 
@@ -14,7 +12,7 @@ function Navbar () {
     <div className="navbarcontainer">      
       <nav className="navbarbox">
         <div className="logocontainer">
-          <StaticImage src="http://via.placeholder.com/50x50" alt="imgplaceholder"/>
+          <p>Lorena's Soaps</p>
         </div>
         <div className="pagescontainer">
           <Link to="/">Inicio</Link>

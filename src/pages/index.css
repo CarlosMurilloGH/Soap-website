@@ -38,27 +38,37 @@
 }
 
 .featureOne{
-    background-color: white;
+    background-color: #E5EBE6;
     padding: 1rem;
     border-radius: 7px;
     margin-left: auto;
     margin-right: auto;
+    color:#285631;
 }
 
 .featureTwo{
-    background-color: white;
+    background-color: #E5EBE6;
     padding: 1rem;
     border-radius: 7px;
     margin-left: auto;
     margin-right: auto;
+    color:#285631;
 }
 
 .featureThree{
-    background-color: white;
+    background-color: #E5EBE6;
     padding: 1rem;
     border-radius: 7px;
     margin-left: auto;
     margin-right: auto;
+    color:#285631;
+}
+
+.featureIcon{
+    font-size: 40px;
+    margin: auto;
+    display: block;
+    margin-bottom:10px ;
 }
 
 .aboutContainer{
@@ -125,4 +135,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.productbtn{
+    margin: auto;
+    display: block;
 }

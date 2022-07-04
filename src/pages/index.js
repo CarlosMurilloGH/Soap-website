@@ -7,6 +7,11 @@ import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby";
 
+import { FaPumpSoap,FaSoap } from 'react-icons/fa';
+import { GiSoapExperiment } from 'react-icons/gi';
+
+
+
 
 export default function Inicio() {
   return (
@@ -21,24 +26,24 @@ export default function Inicio() {
               <button className="btnprincipal">Ver productos</button>
           </div>
           <div className="imgheroContainer">
-            <StaticImage src="http://via.placeholder.com/600x500" alt="imgplaceholder"/>
+            <StaticImage src="../assets/images/Mejor-jabon-en-maryland.png" alt="imgplaceholder" width={500}/>
           </div>
         </div>
 
         <div className="featuresContainer">
           <div className="featuresGridContainer">
             <div className="featureOne">
-              <StaticImage src="http://via.placeholder.com/100x100" alt="imgplaceholder"/>
+              <FaPumpSoap className="featureIcon"/>
               <p><strong>Lorem Ipsum</strong></p>
               <p>Lorem Ipsum</p>
             </div>
             <div className="featureTwo">
-              <StaticImage src="http://via.placeholder.com/100x100" alt="imgplaceholder"/>
+              <FaSoap className="featureIcon"/>
               <p><strong>Lorem Ipsum</strong></p>
               <p>Lorem Ipsum</p>
             </div>
             <div className="featureThree">
-              <StaticImage src="http://via.placeholder.com/100x100" alt="imgplaceholder"/>
+              <GiSoapExperiment className="featureIcon"/>
               <p><strong>Lorem Ipsum</strong></p>
               <p>Lorem Ipsum</p>
             </div>
@@ -48,7 +53,7 @@ export default function Inicio() {
         <div className="aboutContainer">
           <div className="aboutBox">
             <div className="aboutimage">
-              <StaticImage src="http://via.placeholder.com/360x300" alt="imgplaceholder"/>
+              <StaticImage src="../assets/images/Sobre-nosotros.png" alt="imgplaceholder" width={500}/>
             </div>
             <div className="aboutInfo">
               <h2>Sobre nosotros</h2>
@@ -72,16 +77,20 @@ export default function Inicio() {
 
           <div className="productListGridContainer">
             <div className="productimage">
-              <StaticImage src="http://via.placeholder.com/250x400" alt="imgplaceholder"/>
+              <StaticImage src="../assets/images/almond.png" alt="imgplaceholder" width={400}/>
+              <button className="btnprincipal productbtn">Ver producto</button>
             </div>
             <div className="productimage">
-              <StaticImage src="http://via.placeholder.com/250x400" alt="imgplaceholder"/>
+              <StaticImage src="../assets/images/clarifying.png" alt="imgplaceholder" width={400}/>
+              <button className="btnprincipal productbtn">Ver producto</button>
             </div>
             <div className="productimage">
-              <StaticImage src="http://via.placeholder.com/250x400" alt="imgplaceholder"/>
+              <StaticImage src="../assets/images/french.png" alt="imgplaceholder" width={400}/>
+              <button className="btnprincipal productbtn">Ver producto</button>
             </div>
             <div className="productimage">
-              <StaticImage src="http://via.placeholder.com/250x400" alt="imgplaceholder"/>
+              <StaticImage src="../assets/images/seasalt.png" alt="imgplaceholder" width={400}/>
+              <button className="btnprincipal productbtn">Ver producto</button>
             </div>
           </div>
         </div>
