@@ -6,7 +6,6 @@ import { Link } from 'gatsby';
 
 function Navbar () {
 
-  // const [openHamburguer,setOpenHamburguer]=useState(true)
 
   return (
     <div className="navbarcontainer">      
