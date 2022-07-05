@@ -1,0 +1,27 @@
+.nosotrosContainer{
+    margin:4rem;
+}
+
+.heroNosotrosContainer{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.leftContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 700px;
+}
+
+.diferentesContainer{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.diferentesrightContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 700px;
+}

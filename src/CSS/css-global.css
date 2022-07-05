@@ -5,15 +5,21 @@
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 3em;
+    color:#3D6645;
+}
+
+h2{
+    font-size: 2em;
+    color:#3D6645;
 }
 
 .btnprincipal{
     background-color: #3D6645;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
     border: none;
     border-radius: 5px;
     color:#fffffe;

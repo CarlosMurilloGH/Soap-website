@@ -1,7 +1,10 @@
 import React from 'react';
+import "../../CSS/css-global.css";
+import Layout from "../../components/Layout";
 import { graphql,useStaticQuery } from 'gatsby';
 import { GatsbyImage,getImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
+
 
 const query = graphql`
 {
@@ -25,7 +28,7 @@ export default function Productos() {
   const productoIndividual = data.allContentfulJabonProductoIndividual.nodes
   console.log(productoIndividual);
   return (
-    <div>
+    <Layout>
       <div>
         <h1>Products page</h1>
       </div>
@@ -44,7 +47,7 @@ export default function Productos() {
           })
         }
       </div>
-    </div>
+    </Layout>
   )
 }
 
