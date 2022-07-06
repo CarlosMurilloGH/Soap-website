@@ -1,0 +1,40 @@
+.bkgContacto{
+    height: 100%;
+    background: linear-gradient(180deg, #3D6645 50%, #fff 50%);
+    padding:4rem;
+}
+.contactoContainer{
+    background-color: white;
+    border:3px solid #3D6645;
+    margin:4rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.contactoContainer h1{
+    text-align: center;
+}
+
+.formContainer{
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.infoInputs{
+    display: flex;
+}
+
+.inputstyle{
+    padding:0.7rem 2rem;
+    border:1px solid black;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.btnSubmit{
+    margin: auto;
+    display: block;
+    padding: auto;
+    object-fit: contain;
+}

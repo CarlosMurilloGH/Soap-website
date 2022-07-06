@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+}
+
+.productspageContainer{
+    margin:4rem
+}
+
+.productspageContainer h1{
+    text-align: center;
+}
+
+.productsGridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.productLinkContainer{
+    display: block;
+    margin: auto;
+}
+
+.productLinkImage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productLinkInfo{
+    display: block;
+}
+
+.productLinkTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.productLinkPrice {
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+

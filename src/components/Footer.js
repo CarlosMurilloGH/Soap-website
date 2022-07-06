@@ -2,7 +2,6 @@ import React from 'react';
 import "./Footer.css";
 import { Link } from 'gatsby';
 
-import { StaticImage } from "gatsby-plugin-image"
 
 
 export default function Footer() {
@@ -10,7 +9,7 @@ export default function Footer() {
     <footer className='footerContainer'>
         <div className='footerGridContainer'>
           <div className='columnaFooterOne'>
-            <StaticImage src="http://via.placeholder.com/100x100" alt="imgplaceholder"/>
+            <p>Lorena's Soaps</p>
           </div>
           <div className='columnaFooterTwo'>
             <p className='footerHeader'>Links</p>
