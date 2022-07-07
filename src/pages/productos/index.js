@@ -9,25 +9,27 @@ import slugify from "slugify"
 
 
 const query = graphql`
-{
-  allContentfulJabonProductoIndividual {
-    nodes {
-      id
-      titulo
-      precio
-      imagenDelProducto {
-        gatsbyImageData(layout: CONSTRAINED, width: 300)
+  {
+    allContentfulProducto {
+      nodes {
+        id
+        imagen {
+          gatsbyImageData(width: 300, layout: CONSTRAINED)
+          description
+        }
+        precio
+        titulo
       }
     }
   }
-}
+
 `
 
 
 export default function Productos() {
 
   const data = useStaticQuery(query);
-  const productoIndividual = data.allContentfulJabonProductoIndividual.nodes
+  const productoIndividual = data.allContentfulProducto.nodes
   console.log(productoIndividual);
   return (
     <Layout>
@@ -36,10 +38,10 @@ export default function Productos() {
           <h1>Products</h1>
         </div>
       <div className='productsGridContainer'>
-        {
+      {
           productoIndividual.map(producto =>{
-            const {id,titulo,precio,imagenDelProducto} = producto;
-            const pathToImage=getImage(imagenDelProducto);
+            const {id,titulo,precio,imagen} = producto;
+            const pathToImage=getImage(imagen);
             const slug = slugify(titulo,{lower:true})
             return(
               <Link to={`/${slug}`} key={id} className="productLinkContainer">
